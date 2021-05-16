@@ -1,0 +1,5 @@
+<p>list works!</p>
+<p *ngFor="let json of tasks"></p>
+<hr />
+<h3>Tasks from JSON-server</h3>
+<p *ngFor="let taskFromApi of tasksFromApi">{{ taskFromApi.text }}</p>
